@@ -1,7 +1,7 @@
 ---
-title: "Web Accessibility"
+title: "Web Accessibility pre-research"
 author: "Amelia Gianoli"
-description: "An overview of Accessibility"
+description: "A first look at accessibility"
 published: "2026-2-25"
 ---
 ## Web Accessibility Pre-Research Worksheet
@@ -152,16 +152,16 @@ This link is garbage, regardless of accessibility. It does not give any indicati
 
 **17. Choose a popular website and spend 5 minutes exploring it.** List 3 things that seem accessible and 3 potential accessibility issues.
 
-Website: ___________________________
+Website: _Blackboard_
 
 Accessible features:
-- 
-- 
-- 
+- keyboard navigation is possible
+- Layout is fairly intuitive
+- built-in reader
 
 Potential issues:
-- 
-- 
+- some parts need to use enter key, others allow for spacebar as well
+- having a seperate back button in the page for the sections means that the whole thing reloads if you accidentally use the browser back button
 - 
 
 **18. If you were hired to make a company website more accessible, what would be your first three questions or concerns?**

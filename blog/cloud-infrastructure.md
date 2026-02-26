@@ -5,7 +5,7 @@ description: "An overview of cloud infrastructure with S3 storage"
 published: "2026-2-25"
 ---
 ## Cloud Infrastructure
-### Amazon Linux
+### Amazon Linux <i class="fa-brands fa-aws"></i>
 uname -a  shows name, OS version and other info  
 uses yum instead of dnf or apt  
 ### S3 Storage
