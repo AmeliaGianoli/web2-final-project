@@ -8,21 +8,31 @@
 	<link rel="icon" href="/images/logo.png" type="image/png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	<script src="/js/main.js"></script>
+<script src="/js/main.js" defer></script>
 	<link rel="stylesheet" href="/prism/prism.css">
 	<script src="/prism/prism.js"></script>
 </head>
 
 <body>
 	<header>
-		<h1>Header</h1>
+		<h1>Web 2 Blog Site</h1>
 	</header>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/contact">Contact</a></li>
-		</ul>
-	</nav>
+<nav class="site-nav">
+	<button 
+		class="menu-toggle" 
+		aria-controls="primary-menu" 
+		aria-expanded="false"
+	>
+		<span class="sr-only">Menu</span>
+		☰
+	</button>
+
+	<ul id="primary-menu" class="nav-list">
+		<li><a href="/">Home</a></li>
+		<li><a href="/blog">Blog</a></li>
+		<li><a href="/contact">Contact</a></li>
+	</ul>
+</nav>
 	<div id="content">

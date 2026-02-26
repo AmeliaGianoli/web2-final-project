@@ -1,10 +1,10 @@
 console.log("This is main.js...");
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
   const form = document.querySelector("#formContact");
   if (!form) return;
-  
+
   const txtFirstName = form.querySelector("[name='firstName']");
   const txtLastName = form.querySelector("[name='lastName']");
   const txtEmail = form.querySelector("[name='email']");
@@ -63,5 +63,17 @@ window.addEventListener("load", () => {
     };
     return isValid;
   }
+});
 
+document.addEventListener("DOMContentLoaded", () => {
+  // Menu button toggle:
+  const toggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".nav-list");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", function () {
+      const isOpen = menu.classList.toggle("active");
+      toggle.setAttribute("aria-expanded", isOpen);
+    });
+  }
 });

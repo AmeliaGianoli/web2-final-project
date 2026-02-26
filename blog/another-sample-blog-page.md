@@ -4,7 +4,7 @@ author: "John Doe"
 description: "A nice description of this post"
 published: "2024-3-11"
 ---
-# Another Sample Post
+## Another Sample Post
 
 ### Here's a JavaScript code sample:
 ```js

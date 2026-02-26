@@ -1,10 +1,269 @@
-h1{
-  color: midnightblue;
+/* =========================
+   Global Reset
+========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* =========================
+   Typography
+========================= */
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 0;
+  color: #111827;
+}
+
+h1 { font-size: 2.25rem; margin-bottom: 1rem; }
+h2 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+h3 { font-size: 1.25rem; margin-top: 1.5rem; }
+
+p {
+  margin-bottom: 1rem;
+  max-width: 65ch;
+}
+
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.5rem; }
+
+/* =========================
+   Layout
+========================= */
+header {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+main {
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #4b5563;
 }
 
 .footer-icon {
   height: 1em;
-  width: auto;           /* preserves aspect ratio */
-  vertical-align: -0.15em;  /* slight tweak for perfect alignment */
+  width: auto;
+  vertical-align: -0.15em;
   margin-right: 0.05em;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  color: #222;
+  border: 2px solid #222;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-toggle:focus {
+  outline: 3px solid #4c9aff;
+  outline-offset: 2px;
+}
+
+/* =========================
+   Links
+========================= */
+a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+a:focus {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* =========================
+   Buttons
+========================= */
+button {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:focus {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 2px;
+}
+
+/* =========================
+   Forms
+========================= */
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #2563eb;
+  border-color: #2563eb;
+}
+
+/* =========================
+   Code Blocks
+========================= */
+pre {
+  background: #111827;
+  color: #f9fafb;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+code {
+  font-family: monospace;
+}
+
+/* =========================
+   Accessibility Enhancements
+========================= */
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* =========================
+   Responsive Navigation
+========================= */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;          /* hidden by default */
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;     /* position below nav */
+    top: 60px;             /* right below nav */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-top: 1px solid #e5e7eb;
+    z-index: 1000;          /* appear on top of everything */
+  }
+
+  .nav-list.active {
+    display: flex;          /* JS toggles this */
+  }
+
+  main {
+    padding: 1.5rem;
+  }
+
 }

@@ -4,9 +4,9 @@ author: "Amelia Gianoli"
 description: "An overview of Accessibility"
 published: "2026-2-25"
 ---
-# Web Accessibility Pre-Research Worksheet
+## Web Accessibility Pre-Research Worksheet
 
-## Part 1: Understanding the Landscape
+### Part 1: Understanding the Landscape
 
 **1. What does "web accessibility" mean to you?** Write your initial definition before looking anything up.
 
@@ -37,7 +37,7 @@ Much like the Intellectual/developmental category, designing a page that is more
 Learning/Neurological:
 Individuals with these challenges often require simple, consistent, and predictable design. So all the same strategies for the previous two categories also apply here. Additionally being mindful of font choice (maybe provide the user with a way to adjust font settings?) and size is important. 
 
-## Part 2: Exploring Barriers
+### Part 2: Exploring Barriers
 
 **5. Close your eyes and try to navigate a familiar website using only your keyboard** (no mouse). What was difficult? What was impossible?
 
@@ -57,7 +57,7 @@ Technology can be a barrier. If I did not have access to a computer and was rely
 
 Almost every website I have interacted with has some drawback that detracts from a positive user experience. Usually it is a navigation issue (site maps are not as ommon as they used to be) or layout/style issue. The thing is, besides the undiagnosed ADHD, I am a fairly neurotypical person with no physical limitations. If these small things are leading to a negative user experience for me, I can almost guarantee that someone with more challenges is struggling even more.
 
-## Part 3: Legal and Ethical Dimensions
+### Part 3: Legal and Ethical Dimensions
 
 **9. Do you think website owners have a legal obligation to make their sites accessible?** Why or why not?
 
@@ -76,7 +76,7 @@ Legally, they may open themselves up to lawsuits or fines from regulatory bodies
 
 Ethically, we should be trying to make all goods and services available to the widest possible audience. We should be striving to not exclude anyone, deliberately or accidentally. 
 
-## Part 4: Technical Considerations & Coding for Accessibility
+### Part 4: Technical Considerations & Coding for Accessibility
 
 **13. Look at this button code:** `<div onclick="submitForm()">Submit</div>`  
 **What accessibility problems might this create?** How would you improve it?
@@ -148,7 +148,7 @@ Contrast makes it much easier to read or see what is going on. Light colored tex
 
 This link is garbage, regardless of accessibility. It does not give any indication of what you are clicking, and the href is to a very ambiguously labeled document. I would not trust this link under any circumstance. From an accessibility standpoint, it does not tell you where it is pointing or what type of link it is (html, image, document, etc.) since the user is never going to see what the href is in most cases. to fix it, I would rename the pdf to something like 'AccessibilityCheatSheet.pdf' and update the element to `<a href="AccessibilityCheatSheet.pdf">Here is an accessibility reference sheet</a>`
 
-## Part 5: Real-World Application
+### Part 5: Real-World Application
 
 **17. Choose a popular website and spend 5 minutes exploring it.** List 3 things that seem accessible and 3 potential accessibility issues.
 
