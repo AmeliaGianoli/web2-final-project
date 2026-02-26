@@ -1,3 +1,10 @@
 h1{
   color: midnightblue;
 }
+
+.footer-icon {
+  height: 1em;
+  width: auto;           /* preserves aspect ratio */
+  vertical-align: -0.15em;  /* slight tweak for perfect alignment */
+  margin-right: 0.05em;
+}

@@ -64,5 +64,23 @@ function sendEmailNotification(message, callback){
  transporter.sendMail(email, callback);
 }
 
+const formValidation=(firstName, lastName, email, comments )=>{
+  const invalidInput="This field is required"
+  if (!firstName){
+
+  }
+  if (!lastName){
+
+  }
+  if (!email){
+
+  }
+  if (!isValidEmailAddress(email)){
+
+  }
+};
+
+
+exports.formValidation=
 exports.isValidContactFormSubmit = isValidContactFormSubmit;
 exports.sendEmailNotification = sendEmailNotification;
