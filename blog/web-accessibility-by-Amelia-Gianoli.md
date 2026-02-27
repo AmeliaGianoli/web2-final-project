@@ -11,11 +11,11 @@ published: "2026-2-25"
 
 Accessibility to me means that anyone can utilize the web page, regardless of physical limitations.  
 
-Everyone benefits in some way. Obviously those with a physical disability (such as screen reader compatability for the blind) are the intended target, but everyone benefits from an alt image description if the image fails to load properly, or when that alt tag allows it to be found with a search engine. Having tab stops and input field tags would greatly help someone that may struggle with using a mouse for some reason, but it also benefits those using a laptop with trackpad, or those of us that just prefer to primarily use a keyboard.
+Everyone benefits in some way. While those with disabilities are the main focus, everyone benefits from an alt image description if the image fails to load properly or when that alt tag allows it to be found with a search engine. Having tab stops and input field tags would greatly help someone that may struggle with using a mouse, but it also benefits those using a laptop with trackpad, or those of us that just prefer to primarily use a keyboard.
 
 ## Accessibility in Practice: Real Website Experiences
 
-Skyward is the website that the school district uses and it is one of the most terrible user experiences I have ever had. It is difficult to navigate, once you log in it opens in a new bare-bones window, the mobile version doesn't scroll correctly, and that is just the tip of the iceburg. To improve it, I would fix the media query and make it more mobile-friendly. Simply adjusting the font size and layout would make it easier to read/navigate. The forms are very basic (like, Web I basic) so putting a little bit of effort into styling them would make it a more positive experience. Adding in buttons instead of links to things would make it easier to navigate as well.
+Skyward is the website that the school district uses and it is one of the most terrible user experiences I have ever had. It is difficult to navigate, once you log in it opens in a new bare-bones window, the mobile version doesn't scroll correctly, and that is just the tip of the iceberg. To improve it, I would fix the media query and make it more mobile-friendly. Simply adjusting the font size and layout would make it easier to read/navigate. The forms are very basic (like, Web I basic) so putting a little bit of effort into styling them would make it a more positive experience. Adding in buttons instead of links to things would make it easier to navigate as well.
 
 Almost every website I have interacted with has some drawback that detracts from a positive user experience. Usually it is a navigation issue (site maps are not as ommon as they used to be) or layout/style issue. The thing is, besides the undiagnosed ADHD, I am a fairly neurotypical person with no physical limitations. If these small things are leading to a negative user experience for me, I can almost guarantee that someone with more challenges is struggling even more.
 
@@ -43,7 +43,7 @@ Individuals with these challenges often require simple, consistent, and predicta
 
 ## Experiencing Barriers Firsthand
 
-Trying to navigate a website without sight or a mouse was impossible. Regardless of how much I use Blackboaard on a regular basis, I am not equipped to navigate it without sight or a mouse.
+Trying to navigate a website without sight or a mouse is impossible. Regardless of how much I use Blackboaard on a regular basis, I am not equipped to navigate it without sight or a mouse.
 
 Watching the first 30 seconds of the Strings API video with no sound was a challenge. Even with CC on, the nuances and tone were completely missing. It was all one run-on sentence, so I had to guess at where the breaks and pauses were to make it more understandable. Even knowing the content, I was still confused and overwhelmed trying to process what I was reading (and having to read while seeing what was being displayed in the video).
 
