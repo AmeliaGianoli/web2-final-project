@@ -42,7 +42,7 @@ function sendEmailNotification(message, callback){
   const EMAIL_SERVER = "mail." + DOMAIN;
   const EMAIL_ADDRESS = "_mainaccount@" + DOMAIN;
   const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD;
-
+console.log(process.env.DOMAIN+" " + process.env.EMAIL_PASSWORD)
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
     host: EMAIL_SERVER,
